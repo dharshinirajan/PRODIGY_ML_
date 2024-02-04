@@ -10,9 +10,7 @@ import warnings
 import seaborn as sns
 import matplotlib.pyplot as plt
 import scipy.stats
-
 sns.set_palette("pastel")
-
 sns.set_style('darkgrid')
 warnings.filterwarnings("ignore")
 train_df = pd.read_csv('/content/train.csv')
